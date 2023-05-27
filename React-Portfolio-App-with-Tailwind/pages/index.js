@@ -144,21 +144,20 @@ export default function Home() {
             </p>
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-  <div className="col-span-1">
-    <img src="abp.png" className="rounded-lg object-cover" style={{ width: '100%', height: '100%' }} layout="responsive" />
-  </div>
-  <div className="col-span-1">
-    <img src="next.png" className="rounded-lg object-cover" style={{ width: '100%', height: '100%' }} layout="responsive" />
-  </div>
-  <div className="col-span-1" style={{ width: '100%' }}>
-    <img src="mobile-app.gif" className="rounded-lg object-cover" style={{ width: '100%', height: '100%' }} layout="responsive" />
-  </div>
-  <div className="col-span-1">
-    <img src="web2.png" className="rounded-lg object-cover" style={{ width: '100%', height: '100%' }} layout="responsive" />
-  </div>
-</div>
-
-
+          <div classname="basis-1/3 flex-1">
+          <img src="abp.png" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" ></img>
+          </div>
+          <div classname="basis-1/2 flex-1">
+          <img src="next.png" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" ></img>
+          </div>
+          <div classname="flex-1 width:100%">
+          <img src="mobile-app.gif" className="rounded-lg object-cover" width={'100%'} layout="responsive"></img>
+          </div>
+          <div classname="basis-1/2 flex-1">
+          <img src="web2.png" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"></img>
+          </div>
+          
+        </div>
        </section>
       </main>
       </m.div>
