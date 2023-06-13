@@ -156,6 +156,9 @@ export default function Home() {
           <div classname="basis-1/2 flex-1">
           <img src="web2.png" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"></img>
           </div>
+          <div classname="basis-1/2 flex-1">
+          <img src="web2.png" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"></img>
+          </div>
           
         </div>
        </section>
